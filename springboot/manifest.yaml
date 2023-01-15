@@ -1,0 +1,6 @@
+buildEnvs:
+  - name: BP_NATIVE_IMAGE
+    value: "false"
+healthEndpoints:
+  liveness: /actuator/health
+  readiness: /actuator/health
